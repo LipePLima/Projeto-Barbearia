@@ -1,0 +1,120 @@
+header {
+    background: #bbbbbb;
+}
+
+.cabecalho {
+    position: relative;
+    min-width: 350px;
+    max-width: 940px;
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    text-align: right;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(175, 175, 32);
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.dados {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    width: 50%;
+}
+
+#horario {
+    font-size: 15px;
+    width: 15%;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+input#enviar {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    transition: 0.9s all;
+}
+
+#enviar:hover {
+    background-color: rgb(207, 114, 0);
+    transform: scale(1.03);
+}
+
+table {
+    margin: 20px 0;
+    width: 50%;
+}
+
+thead {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px 8px;
+}
+
+td {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copy {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+}
