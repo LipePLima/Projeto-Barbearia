@@ -17,7 +17,7 @@ header {
 
 nav {
     position: absolute;
-    text-align: right;
+    
     top: 110px;
     right: 0;
 }
@@ -98,3 +98,37 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 480px){
+    .cabecalho, .produtos{
+        width: auto;
+    }
+
+    h1{
+        text-align:center;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .produtos li{
+        display: inline-table;
+        margin: 25px 10px 0 10px;
+    }
+
+    form, fieldset, table {
+        margin:40px 10px 10px;
+    }
+
+    .input-padrao{
+        width: 70%;
+    }
+
+    .enviar{
+        width:auto; 
+    }
+
+ }

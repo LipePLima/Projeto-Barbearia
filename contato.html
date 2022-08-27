@@ -26,7 +26,7 @@
     </header>
 
     <main>
-        <form action="" method="post">
+        <form method="post">
             <label for="inome">Nome e Sobrenome:</label>
             <input type="text" name="nome" id="inome" minlength="3" maxlength="30" placeholder="Barbearia Felipe" class="dados" required>
 
@@ -37,7 +37,7 @@
             <input type="tel" name="fone" id="ifone" class="dados" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(XX) XXXXX-XXXX" required>
 
             <label for="imensagem">Mensagem</label>
-            <textarea name="mensagem" id="imensagem" cols="40" rows="10" class="dados"></textarea>
+            <textarea name="mensagem" id="imensagem" cols="20" rows="10" class="dados"></textarea>
 
             <fieldset>
                 <legend>Como prefere o nosso contato?</legend>
@@ -58,33 +58,36 @@
             </fieldset>
             
 
-            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+            <label class="checkbox"><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+            
 
             <input type="submit" value="Enviar" id="enviar">
         </form>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Dia</th>
-                    <th>Horário</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Segunda</td>
-                    <td>8hrs ~ 20hrs</td>
-                </tr>
-                <tr>
-                    <td>Quarta</td>
-                    <td>8hrs ~ 20hrs</td>
-                </tr>
-                <tr>
-                    <td>Sexta</td>
-                    <td>8hrs ~ 20hrs</td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8hrs ~ 20hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8hrs ~ 20hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8hrs ~ 20hrs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer>

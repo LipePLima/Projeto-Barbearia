@@ -169,3 +169,36 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    .cabecalho, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    .image { 
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .banner {
+        width: 100%;
+        height: 250px;
+    }
+
+    .principal {
+        padding: 5px;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 97%;
+    }
+
+    .lista-beneficios {
+        padding: 5px;
+    }
+}

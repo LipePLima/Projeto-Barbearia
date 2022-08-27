@@ -73,6 +73,7 @@ form label, form legend {
 
 .checkbox {
     margin: 20px 0;
+    width: auto;
 }
 
 input#enviar {
@@ -124,4 +125,38 @@ footer {
     color: #fff;
     font-size: 13px;
     margin-top: 20px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    .cabecalho, main, table, fieldset {
+        width: auto;
+    }
+
+    .image { 
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    form {
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .dados {
+        padding: 5px;
+        width: auto;
+    }
+
+    .checkbox {
+        width: 30%;
+    }
+
+    #container {
+        margin-left: 5em;
+    }
 }
