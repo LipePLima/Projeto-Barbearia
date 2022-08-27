@@ -8,4 +8,6 @@
  <strong>OBS</strong>: Não está 100% responsivo! Mas pretendo alterá-lo no futuro.
  
  #
- ![projeto-alura](https://user-images.githubusercontent.com/102830741/186543494-e6bdcf23-84cd-4c06-bef0-467f80f7d8fc.png) ![projeto-alura2](https://user-images.githubusercontent.com/102830741/186543579-0e59b7a3-e311-4a1b-9b35-9847ef171eee.png)
+![projeto-alura](https://user-images.githubusercontent.com/102830741/186543494-e6bdcf23-84cd-4c06-bef0-467f80f7d8fc.png)
+![projeto-alura2](https://user-images.githubusercontent.com/102830741/186543579-0e59b7a3-e311-4a1b-9b35-9847ef171eee.png)
+![projeto-alura3](https://user-images.githubusercontent.com/102830741/186964417-e6d0f108-985d-48ac-bcd1-7edb61c5cb8a.png)
