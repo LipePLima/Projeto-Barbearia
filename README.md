@@ -6,4 +6,5 @@
  Adorei o projeto e a ideia dele, espero que gostem também!!
  
  <strong>OBS</strong>: Não está 100% responsivo! Mas pretendo alterá-lo no futuro.
+ 
  <strong>edit</strong>:Agora está 100% responsivo e finalizado! Espero que gostem!!
