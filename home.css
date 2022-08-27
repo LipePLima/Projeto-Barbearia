@@ -195,10 +195,7 @@ footer {
     }
 
     .lista-beneficios, .imagem-beneficios {
-        width: 97%;
-    }
-
-    .lista-beneficios {
-        padding: 5px;
+        width: 100%;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.555);
     }
 }
